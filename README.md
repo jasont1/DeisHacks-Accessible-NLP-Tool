@@ -8,7 +8,7 @@
             <div
                 class="markdown prose w-full break-words dark:prose-invert light"
             >
-                <h1>DeisHacks: Accessible NLP Tool</h1>
+                <h1> DeisHacks: Accessible NLP Tool </h1>
                 <h2>Introduction</h2>
                 <p>
                     We are a team participating in the DeisHack, a hackathon for
