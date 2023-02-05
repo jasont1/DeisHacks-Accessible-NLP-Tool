@@ -82,7 +82,7 @@
                     </li>
                     <li>
                         Ability to take long-answer questions and convert them
-                        into an analizable word document format
+                        into an analyzable word document format
                     </li>
                 </ul>
                 <h2>Getting Started</h2>
@@ -106,7 +106,7 @@
                     organizations streamline the analysis of lengthy reports.
                     With its utilization of OpenAI's GPT-3 model for NLP
                     analysis, automated extraction of key information, and clear
-                    analizable format for output, our tool has the potential
+                    analyzable format for output, our tool has the potential
                     to save organizations time, effort, and resources. Our hope
                     is that this tool will contribute to the ongoing efforts
                     towards social justice and equality, by making the process
