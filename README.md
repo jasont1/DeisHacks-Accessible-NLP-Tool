@@ -89,10 +89,6 @@
                 <p>To use our tool:</p>
                 <ol>
                     <li>Clone the repository from Github.</li>
-                    <li>
-                        Install the required dependencies (listed in the
-                        "Dependencies" section).
-                    </li>
                     <li>Run the tool</li>
                     <li>
                         Access the tool by accessing its interface on a local
@@ -104,10 +100,6 @@
                     </li>
                     <li>View the output&nbsp;</li>
                 </ol>
-                <h2>Dependencies</h2>
-                <ul>
-                    <li>OpenAI's GPT-3 API</li>
-                </ul>
                 <h2>Conclusion</h2>
                 <p>
                     In conclusion, our tool is designed to help non-profit
