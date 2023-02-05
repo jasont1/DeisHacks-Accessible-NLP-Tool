@@ -19,7 +19,7 @@ SOMETHING_INTERESTING = "What is something you found insightful of the following
 
 
 ## This is the API key that will be used to access the OpenAI API
-openai.api_key = "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"
+openai.api_key = "YOUR_KEY"
 
 ## This is the raw input data that will be used as an input data for the prompts above. 
 WHITE_SPACE = "                                     "
