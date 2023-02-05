@@ -61,7 +61,7 @@
                     inputs the report into the tool, and the tool processes the
                     report using the GPT-3 model to extract important
                     information, including statistics, and formats it into a
-                    markdown table.<br /><br />Rather than changing the format
+                    stylized word document.<br /><br />Rather than changing the format
                     of these reports on a case-by-case basis, our solution works
                     to save time and resources for any non-profit struggling
                     with this problem.
@@ -82,7 +82,7 @@
                     </li>
                     <li>
                         Ability to take long-answer questions and convert them
-                        into a markdown table format
+                        into an analizable word document format
                     </li>
                 </ul>
                 <h2>Getting Started</h2>
@@ -114,7 +114,7 @@
                     organizations streamline the analysis of lengthy reports.
                     With its utilization of OpenAI's GPT-3 model for NLP
                     analysis, automated extraction of key information, and clear
-                    markdown table format for output, our tool has the potential
+                    analizable format for output, our tool has the potential
                     to save organizations time, effort, and resources. Our hope
                     is that this tool will contribute to the ongoing efforts
                     towards social justice and equality, by making the process
