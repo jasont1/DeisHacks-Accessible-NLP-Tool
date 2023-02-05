@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: #f2f2f2;
+      }
+
+      h1 {
+        font-size: 24px;
+        margin-bottom: 16px;
+        color: #333;
+      }
+
+      textarea {
+        width: 500px;
+        height: 300px;
+        font-size: 18px;
+        padding: 16px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 5px #ddd;
+        transition: all 0.3s ease-in-out;
+      }
+
+      textarea:focus {
+        outline: none;
+        box-shadow: 2px 2px 5px #999;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>DeisHacks: Accessible NLP Tool</h1>
+      <h3>Please enter the text to be summarized below, click on the boxes of what you want to be returned, and then click the submit button. </h3>
+      <textarea id="text-input"></textarea>
+      <button id="submit-button">Submit</button>
+    </div>
+    
+    <!-- Below the submit button are some checkboxes so the user can adjust their settings -->
+    <h3>Please check out the boxes of the summarized data you want to retrieve from this text </h3>
+    <input type="checkbox" name="fruit" value="List of Statistics"> List of Statistics
+    <input type="checkbox" name="fruit" value="Key Accomplishments"> Key Accomplishments
+    <input type="checkbox" name="fruit" value="One Sentence Summary"> One Sentence Summary
+    <input type="checkbox" name="fruit" value="One Paragraph Summary" > One Paragraph Summary
+    <input type="checkbox" name="fruit" value="Key Learnings"> Main Challenges
+
+    <script>
+      $("#submit-button").click(function() {
+        var text_input = $("#text-input").val();
+        $.ajax({
+          url: "./main.py",
+          type: "POST",
+          data: { text: text_input },
+          success: function(response) {
+            $("#submit-button").text("Submitted")
+            console.log(response);
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
